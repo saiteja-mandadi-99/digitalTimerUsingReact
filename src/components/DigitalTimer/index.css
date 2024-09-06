@@ -1,0 +1,91 @@
+/* Write your CSS here */
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  height: 100vh;
+  width: 100%;
+}
+.timerAppContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.timeContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  width: 500px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.time {
+  background-color: white;
+  border-radius: 100px;
+  height: 180px;
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.start-reset-limitContainer {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.start-resetContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.BtnContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+}
+
+.image {
+  height: 40px;
+  width: 40px;
+}
+.imageTitle {
+  font-weight: bold;
+  font-size: 25px;
+}
+.increaseorDecreaseTimerContainer {
+  align-self: center;
+}
+.setLimitContainer {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  outline: none;
+  cursor: pointer;
+  border: 0px;
+  background-color: transparent;
+  font-size: 3rem;
+  margin: 10px;
+}
+
+.timeCount {
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+  font-weight: bold;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
